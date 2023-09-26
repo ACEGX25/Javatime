@@ -1,3 +1,8 @@
+//Name-Geetesh Ganesh Karjavkar
+// Roll no- 36
+//batch-S2
+//Program 1-Arithmatic operations on Complex Numbers
+
 public class ComplexNumbers {
     int real,img;
     ComplexNumbers(int r, int i)
@@ -58,3 +63,18 @@ public class ComplexNumbers {
         div.show();
     }
 }
+
+// The first complex number is--
+//12+13i
+//The second complex number is--
+//14+15i
+//Addition is
+//26+28i
+//Subtraction is
+//-2+-2i
+//Multiplication is
+//-2+-2i
+//Division is
+//-2+-2i
+//
+//Process finished with exit code 0
