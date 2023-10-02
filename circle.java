@@ -25,7 +25,7 @@ public class circle {
             circle c=new circle();
             c.accept(x);
             c.compute();
-            c.dispaly();
+            
         }
     }
 
