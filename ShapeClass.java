@@ -1,3 +1,12 @@
+/*
+Name-
+Batch-
+Roll no-
+Class-
+ */
+
+
+
 import java.lang.Math.*;
 
 abstract class shape {
