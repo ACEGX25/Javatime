@@ -9,14 +9,14 @@ public class myclass{
         this.attribute3=attribute3;
     }
     public void mymethod(myclass obj){
-        System.out.println("Attribute 1"+obj.attribute1);
-        System.out.println("Attribute 2"+obj.attribute2);
-        System.out.println("Attribute 3"+obj.attribute3);
+        System.out.println("Attribute 1 "+obj.attribute1);
+        System.out.println("Attribute 2 "+obj.attribute2);
+        System.out.println("Attribute 3 "+obj.attribute3);
     }
     public static void main(String args[]){
         myclass myobject1=new myclass(10,"Hello",3.14);
         myclass myobject2=new myclass(20,"World",6.28);
-        myobject1.mymethod(myobject2);
+        myobject2.mymethod(myobject1);
 
     }
 }
